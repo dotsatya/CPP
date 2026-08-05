@@ -6,6 +6,7 @@ public:
     void eat(){
         cout << "Animals eat";
     }
+
     void speak(){
         cout << "Animal ghewww";
     }

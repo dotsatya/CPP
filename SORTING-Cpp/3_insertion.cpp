@@ -8,11 +8,14 @@ int main()
 
     for (int i = 1; i < n; i++)
     {
-        for (int j = 0; j < n - i; j++)
+        int temp = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] > temp)
         {
-            if (arr[j] > arr[j + 1])
-                swap(arr[j], arr[j + 1]);
+            arr[j + 1] = arr[j]; // Shift element
+            j--;
         }
+        arr[j + 1] = temp;
     }
 
     for (int num : arr)
