@@ -3,7 +3,7 @@
 using namespace std ;
 
 int main(){
-    cout<<"Giving input";
+    cout<<"Giving input - ";
     vector<int> arr;
     int n;
 

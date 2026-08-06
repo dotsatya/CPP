@@ -37,21 +37,22 @@ int main() {
 /* 
 You have a TV with a remote.
 
-You press:
-
+You press:--
 Power ON
 Volume +
 Volume -
 
 Do you know how the TV turns on internally?
-
 No.
-
 You only know what to press.
 
 This is Abstraction.
 
 Abstraction = Hiding HOW something works.
+
+
+
+
 
 Now think about the TV's internal parts
 
@@ -63,12 +64,8 @@ Chips
 Memory
 
 Can you directly change them?
-
 No.
-
 The TV protects them.
-
 This is Encapsulation.
-
 Encapsulation = Protecting data from direct access.
 */
