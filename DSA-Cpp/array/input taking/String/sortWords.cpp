@@ -11,7 +11,8 @@ int main(){
     string word;
 
     vector<string> words;
-    while (ss >> word) words.push_back(word);
+    // while (ss >> word) words.push_back(word);
+    while (getline(ss, word,' ')) words.push_back(word);
     sort(words.begin(), words.end());
     for (string word : words) cout << word << endl;
 }
