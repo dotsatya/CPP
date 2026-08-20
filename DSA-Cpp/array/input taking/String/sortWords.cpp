@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     string s;
     getline(cin, s);
-    stringstream ss(s);
+    stringstream ss(s) ;
     string word;
 
     vector<string> words;
